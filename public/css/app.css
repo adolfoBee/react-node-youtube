@@ -1,0 +1,107 @@
+.header{
+	height: 100px;
+	background-color: lightgrey;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.header h2{
+	text-align: center;
+	font-size: 35px;
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+}
+
+.login-container{
+	text-align: center;
+	font-size: 30px;
+}
+
+.login-container a{
+	text-decoration: none;
+}
+
+.login-container span{
+	text-decoration: none;
+	color: green
+}
+
+.login-container span::first-letter {
+    color: yellow;
+}
+
+.login-container i{
+	color: orangered;
+}
+.row{
+	display: flex;
+	text-align: left;
+	background-color: lightgrey;
+}
+
+.selected{
+	background-color: orange;
+}
+.video{
+	width: 600px;
+	background-color: lavender;
+	height: 350px;
+}
+.video-background{
+	background-color: black;
+}
+.section-messages{
+	height: 350px;
+	width: 400px;
+}
+.section-filter{
+	display: block;
+	background-color: beige;
+	overflow-y: scroll;
+	width: 1000px;
+	height: 150px;
+	max-height: 150px;
+	margin:auto;
+}
+.messages{
+	height: 325px;
+	width: 400px;
+	background-color: beige;
+	overflow-y: scroll;
+	max-height: 325px;
+}
+
+.video-container{
+	width: 1000px;
+	height: 350px;
+	margin: auto;
+	display: flex;
+}
+
+.container{
+		text-align: center;
+}
+
+.list{
+	margin:auto;
+	width: 1000px;
+}
+
+.width-70{
+	width: 70%;
+
+}
+
+.width-30{
+	width: 30%;
+
+}
+
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
+
